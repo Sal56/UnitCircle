@@ -1,0 +1,25 @@
+<img src="unitcircle.png" width="600" height="435" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Unknown  -->
+<area shape="rect" coords="376,50,390,74" alt="cos 60" onmouseover="cos 60" href="Math/UnitCircleImap/q1/cos60/" />
+<area shape="rect" coords="391,50,405,74" alt="sin 60" onmouseover="sin 60" href="Math/UnitCircleImap/q1/sin60/" />
+<area shape="rect" coords="431,81,445,105" alt="cos 45" onmouseover="cos 45" href="Math/UnitCircleImap/q1/cos45/" />
+<area shape="rect" coords="446,81,460,105" alt="sin 45" onmouseover="sin 45" href="Math/UnitCircleImap/q1/sin45/" />
+<area shape="rect" coords="460,121,474,145" alt="cos 30" onmouseover="cos 30" href="Math/UnitCircleImap/q1/cos30" />
+<area shape="rect" coords="475,121,489,145" alt="sin 30" onmouseover="sin 30" href="Math/UnitCircleImap/q1/sin30/" />
+<area shape="rect" coords="285,28,299,52" alt="cos 90" onmouseover="cos 90" href="Math/UnitCircleImap/q1/cos90/" />
+<area shape="rect" coords="300,28,313,52" alt="sin 90" onmouseover="sin 90" href="Math/UnitCircleImap/q1/sin90/" />
+<area shape="rect" coords="300,52,324,72" alt="90 Degrees" onmouseover="90 Degrees" href="Math/UnitCircleImap/q1/90degrees/" />
+<area shape="rect" coords="381,79,405,99" alt="60 Degrees" onmouseover="60 Degrees" href="Math/UnitCircleImap/q1/60degrees/" />
+<area shape="rect" coords="421,107,445,127" alt="45 Degrees" onmouseover="45 Degrees" href="Math/UnitCircleImap/q1/45degrees" />
+<area shape="rect" coords="445,146,469,166" alt="30 Degrees" onmouseover="30 Degrees" href="Math/UnitCircleImap/q1/30degrees/" />
+<area shape="rect" coords="285,77,315,107" alt="pi/2" onmouseover="pi/2" href="Math/UnitCircleImap/q1/pi2/" />
+<area shape="rect" coords="355,100,385,130" alt="pi/3" onmouseover="pi/3" href="Math/UnitCircleImap/q1/pi3/" />
+<area shape="rect" coords="386,116,416,146" alt="pi/4" onmouseover="pi/4" href="Math/UnitCircleImap/q1/pi4/" />
+<area shape="rect" coords="406,147,436,177" alt="pi/6" onmouseover="pi/6" href="Math/UnitCircleImap/q1/pi6/" />
+</map>

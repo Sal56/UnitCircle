@@ -1,0 +1,21 @@
+.subheading{color:blue; font-size: small;}
+.author{font-size: small;}
+.maintext{text-indent: 1em;}
+.indent{text-indent: 6em;}
+.main{
+	padding:20px;
+	border:5px double black;
+	/* Borders can have 1 of 10 values - none, hidden, dotted,
+	*  dashed, solid, double, groove, ridge, inset, outset.
+	*/
+	width:20px;
+}
+h1{font-size: 1.6em;}
+h2{font-size: 1.4em;}
+h3{font-size: 1.2em;}
+code{font-size: 1.2em;}
+p{
+	font-size: 1em;
+	font-family: Georgia; "Times New Roman", Times, serif;
+	text-align: left;
+}
