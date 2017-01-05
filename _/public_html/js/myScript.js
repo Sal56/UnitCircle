@@ -1,1 +1,1 @@
-document.write(typeof("Dwayne"));
+document.write(typeof("Sal Saldare"));
