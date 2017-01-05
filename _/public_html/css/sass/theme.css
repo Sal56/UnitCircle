@@ -1,0 +1,49 @@
+/*
+Error: Invalid CSS after "...", Times, serif": expected "{", was ";"
+        on line 24 of /home/dwayne/_/public_html/css/sass/theme.scss
+
+19: h2{font-size: 1.4em;}
+20: h3{font-size: 1.2em;}
+21: code{font-size: 1.2em;}
+22: p{
+23: 	font-size: 1em;
+24: 	font-family: Georgia; "Times New Roman", Times, serif;
+25: 	text-align: left;
+26: }
+
+Backtrace:
+/home/dwayne/_/public_html/css/sass/theme.scss:24
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:294:in `watch'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/plugin.rb:109:in `method_missing'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/home/dwayne/.gem/ruby/2.3.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+/usr/bin/sass:22:in `load'
+/usr/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...\", Times, serif\": expected \"{\", was \";\"\A         on line 24 of /home/dwayne/_/public_html/css/sass/theme.scss\A \A 19: h2{font-size: 1.4em;}\A 20: h3{font-size: 1.2em;}\A 21: code{font-size: 1.2em;}\A 22: p{\A 23: 	font-size: 1em;\A 24: 	font-family: Georgia; \"Times New Roman\", Times, serif;\A 25: 	text-align: left;\A 26: }"; }

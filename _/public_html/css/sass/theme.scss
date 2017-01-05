@@ -1,0 +1,64 @@
+$font-stack: "Times New Roman", Georgia, Serif;
+$float-left: left;
+$image-padding: 10px 10px 10px 10px;
+
+/* Get element by element name and class. This looks for
+ * the list class first then it lokks to see if the class
+ * .list is inside a <nav> tag */
+nav.list{
+  /* I want to position this right side of page */
+}
+ul li {
+  text-align: center;
+  list-style-type: none;
+  background: lightblue;
+  margin: 5px;
+  margin: auto;
+  width: 4%;
+  border: 3px solid yellow;
+  padding: 5px;
+}  
+
+
+.Home{float: left;}   
+.About{float: left;}  
+.Blog{float: left;}   
+.Contact{float: left;}
+
+.subheading{color:blue; font-size: small;}
+.author{font-size: small;}
+.maintext{text-indent: 1em;}
+.indent{text-indent: 6em;}
+
+body{
+  background-color: #50FDE5;
+  /*font-family: 'Reem Kufi';*/
+  font-family: 'Amaranth';
+  font-size: 1em;
+}
+h1{font-size: 1.6em;}
+h2{
+  text-align: center;
+  font-size: 1.4em;
+  font-variant: small-caps;
+}
+h3{font-size: 1.2em;}
+code{font-size: 1.2em;}
+p{
+	font-size: 1em;
+	font: 100% $font-stack;
+	text-align: left;
+}
+.image{
+  width: 150px; 
+  height: 108px; 
+  float: $float-left;
+  margin: $image-padding;
+}
+.circle-image{
+  width: 600px; 
+  height: 420px; 
+  float: $float-left;
+  margin: $image-padding;
+  opacity: 0.8;
+}
