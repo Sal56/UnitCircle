@@ -1,34 +1,18 @@
 html { font-size: 97%; }
-
-main {
-  position: relative;
-  top: -30px;
-/*  width: 100%;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  -o-column-count: 2;
-  column-count: 2;
-
-  -webkit-column-gap: 15px;
-  -moz-column-gap: 15px;
-  -o-column-gap: 15px;
-  column-gap: 15px;
-
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -o-border-radius: 25px;
-  border-radius: 25px;
-
-  padding-top: 1%;*/
+footer {
+  margin: 2% 0 0 0;
+  color: blue;
+  font-size: small; 
+  z-index: 1;
+  visibility: show;
+  background: #BFFFF6; 
+  text-align: center;
 }
-
 h1 {
   z-index: 1;
   visibility: show;
-  font-size: 1.9em; 
-  padding: 2px 0 3% 0;  
-  background: linear-gradient(#BFFFF6 0%, #FFF 100%);
-  /*background: #BFFFF6; */
+  font-size: 1.6em; 
+  background: #BFFFF6; 
   }
 header{ 
   text-align: center;
@@ -47,20 +31,8 @@ nav.list {
   /*text-overflow: ellipsis;*/
 /*}  */
 
-.active {
-  opacity: .5;
-  color: #000000;
-  background-color: #FFFFFF;
-  padding: 6px;
-  border-radius: 10px;
-}
-ul li:hover {
-  transform: scale(1.3, 1.3);
-}
 ul li {
-  position: relative;
-  top: -30px;
-  font-size: .9rem;
+  font-size: .7rem;
   display: inline-block;
   text-align: center;
   white-space: nowrap;
@@ -68,22 +40,21 @@ ul li {
   text-overflow: clip clip;
   list-style-type: none;
   background: #BFFFF6;
-  /*margin: 5px;*/
+  margin: 5px;
   margin: 0 auto;
-  margin-right: 1.5%;
-  width: 10%;
+  width: 4%;
   border: 3px solid #DBE775;
   border-radius: 10%;
-  padding: 8px; }
+  padding: 5px; }
 
 a {
   text-decoration: none; 
 }
 
-/*a:hover{
+a:hover{
   background: #B3B3B3;
   color: #0006C;
-}*/
+}
 a:focus{
   background: #B3B3B3;
   color: #0006C;  
@@ -94,7 +65,7 @@ html {
 
 .formatted {
   /*background-color: #BFFFF6;*/
-  width: 97%;
+  width: 95%;
   padding-left: 1%;
   margin: 0 auto;
   font-family: 'DejaVu Sans', 'Amaranth';
@@ -106,8 +77,6 @@ html {
 .nobreak { white-space: nowrap; }
 
 h2 {
-  position: relative;
-  top: -40px;
   text-align: center;
   font-size: 1.4em;
   font-variant: small-caps;
@@ -123,12 +92,11 @@ code {
   letter-spacing: -4px;
 }
 
-/*Used with the UnderConstruct.jpg*/
-/*.image {
+.image {
   width: 150px;
   height: 108px;
   float: left;
-  margin: 10px 10px 10px 10px; }*/
+  margin: 10px 10px 10px 10px; }
 
 .circle-image {
   display: table-cell;
@@ -140,30 +108,6 @@ code {
   opacity: 0.8;
   padding: .5% 1% .5% .3%; 
   background: #DBE775; 
-}
-
-footer {
-/*  position: relative;
-  top: -30px;*/
-  /*padding: 2px 0 3% 0;*/
-  margin: 2% 0 0 0;
-  padding: 2% 0 2px 0;
-  color: blue;
-  font-size: small; 
-  z-index: 1;
-  visibility: show;
-  background: linear-gradient(#FFF 0%, #BFFFF6 100%); 
-  text-align: center;
-}
-figure:hover {
-  
-  transition-duration: 3s;
-}
-p::first-letter {
-    /* Using the custom font we've included in the HTML tab: */
-  font-family: Satisfy, cursive;
-  font-weight:normal;
-  font-size:24px;
 }
 
 /*# sourceMappingURL=theme.css.map */

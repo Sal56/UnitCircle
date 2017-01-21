@@ -1,112 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link href='//fonts.googleapis.com/css?family=Reem Kufi' rel='stylesheet'>
-	<link href='//fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
-	<title>Sal's Math</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/theme.css">
-</head>
-<body>
-	<h1>Welcome to Sal's Math Videos & Tutorials</h1>
-	<header>
-		<nav class="list">
-			<ul>
-				<li class="Home"><a href="#Home">Home</a></li>
-				<li class="About"><a href="#About">About</a></li>
-				<li class="Blog"><a href="#Blog">Blog</a></li>
-				<li class ="Contact"><a href="#Contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header><br>
-	<h2>The Unit Circle</h2>
-	<main class="maintext"><br>
-		<div>
-			<span class = "indent">Building the entire unit circle by the method described here requires that we know the first three angles of the unit circle, 
-				<code>30&deg;</code>, <code>45&deg;</code>, and <code>60&deg;</code>. We will also need to know how to convert between degrees and radians.<br><br> 
 
-			First we know that the circumference of the unit circle ( a circle of radius 1 ) is <code>2&pi;</code> radians. This comes from the formlua for the circumference of circle <code>C = 2&pi;r</code>, the radius of a unit circle is <code>r = 1</code>, therefore <code>C = 2&pi;1</code><br> 
-			so <code>C = 2&pi;</code>. A radian is, very simply, the measure of an arc,
-			a circumference is merely the flil and complete arc of a circle. The idea of a radian is the measure of an angle by the length of its arc.<br><br>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='//fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+		<link href="http://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
+		<title>Sal's Math</title>
+		<meta name="Sal's Math Site" content="Exploring the Unit Circle">
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
+	</head>
 
-			Suppose we draw a coordinate axis in x and y, then we draw a circle on this axis with a radius of one, from the x axis beginning at the origin we draw a line at an angle of <code>30&deg;</code> that intersects the unit circle,<br>
-			<img src="images/unitcircle.png" class="circle-image" alt="Unit Circle" usemap="#map"/> 
-			we can get the length of the arc in radians from the relationship between the full circumference of the circle<br> 
-			and the degree measure of the angle. We can say that <code>30&deg;</code> is a multiplicative portion of a full circle of<br> 
-			<code>360&deg;</code>. If we divide <code>360/30 = 12</code>, so <code>30&deg;</code> is a 12th of a circle. This does not tell us anything about the length<br> 
-			of the arc except to say it is 1/12 th of the flil circle. We know also that the full circumference of a circle is 
-			<code>2&pi;</code> radians.<br> 
-			We can get the length of the arc at <code>30&deg;</code> by inferring a multiplicative relationship just as we did with 
-			degree measure.<br><br> 
+	<body>
+		<!-- Jan. 21, 2017 12:45 -->
 
-			First we have that, <code>2&pi; = 360&deg;</code> dividing both sides by 2 we get that
-			<code>&pi; = 180&deg;</code>. We want to know how many radians<br> 
-			are in 30&deg;. We colid then next divide both sides of <code>&pi; = 180&deg;</code><br> 
-			by <code>180&deg;<br>
-			&pi;/180&deg; = 180&deg;/180&deg;</code><br>
-			and we get that <code>1&deg; = &pi;/180&deg;</code><br><br>
-	                                           	   
-			Next we would multiply both sides by 30&deg; to get the number of radians in 30&deg;, that is the length of the
-			arc at 30&deg; of a circle.<br><br>
-			<code>30&deg; = &pi;/180&deg; x 30&deg;/1</code><br>  		
-			from this we get that;<br><br>
-	                               
-			<code>30&deg; = &pi;/6</code><br><br>
-	                      		 
-			and <code>45&deg; = &pi;/180&deg; x 45&deg;/1</code><br>  	
-			from this we get that;<br><br>
-	                            		            
-			<code>30&deg; = &pi;/4</code> radians<br><br>
-	                      		    
-			and <code>60&deg; = &pi;/180&deg; x 60&deg;/1</code><br>  	
-			from this we get that;<br><br>
-	                           		             
-			<code>30&deg; = &pi;/3</code><br><br>
-	                      		    
-			We draw a line at <code>45&deg;</code>, and <code>60&deg;</code> and plot the three corresponding arc lengths. 
-			<code>&pi;/6</code> at <code>30&deg;</code>, <code>&pi;/4</code> at <code>45&deg;</code>, <code>&pi;/3</code> at 
-			<code>60&deg;</code>.<br> 
-			We can also infer that <code>90&deg; = &pi;/2</code> since <code>180&deg;</code> is <code>&pi;</code> and mark these two points as well.<br>
-			So far we have <code>30 = &pi;/6</code>, <code>45 = &pi;/4</code>, <code>60 = &pi;/3</code>, <code>90 = &pi;/2</code> and 
-			<code>180 = &pi;</code>, we can get all the other points by this same method or we can infer some knowledge of<br> 
-			fractions and deduce the remaining radian measure points.<br>
-			</span>		
-		</div>
+		<header role="banner">
+			<h1>Welcome to Sal's Math Videos & Tutorials</h1>
+			<!--<nav class="list"> -->
+			<nav role="Navigation">
+				<h3 title="navigation">
+				<ul>
 
-		<map name="map">
-			<area shape="rect" coords="376,50,390,74" alt="cos 60" title="cos 60" href="#Math/UnitCircleImap/q1/cos60/" />
-			<area shape="rect" coords="391,50,405,74" alt="sin 60" title="sin 60" href="#Math/UnitCircleImap/q1/sin60/" />
-			<area shape="rect" coords="431,81,445,105" alt="cos 45" title="cos 45" href="#Math/UnitCircleImap/q1/cos45/" />
-			<area shape="rect" coords="446,81,460,105" alt="sin 45" title="sin 45" href="#Math/UnitCircleImap/q1/sin45/" />
-			<area shape="rect" coords="460,121,474,145" alt="cos 30" title="cos 30" href="#Math/UnitCircleImap/q1/cos30" />
-			<area shape="rect" coords="475,121,489,145" alt="sin 30" title="sin 30" href="#Math/UnitCircleImap/q1/sin30/" />
-			<area shape="rect" coords="285,28,299,52" alt="cos 90" title="cos 90" href="#Math/UnitCircleImap/q1/cos90/" />
-			<area shape="rect" coords="300,28,313,52" alt="sin 90" title="sin 90" href="#Math/UnitCircleImap/q1/sin90/" />
-			<area shape="rect" coords="300,52,324,72" alt="90 Degrees" title="90&deg;" href="#Math/UnitCircleImap/q1/90degrees/" />
-			<area shape="rect" coords="381,79,405,99" alt="60 Degrees" title="60&deg;" href="#Math/UnitCircleImap/q1/60degrees/" />
-			<area shape="rect" coords="421,107,445,127" alt="45 Degrees" title="45&deg;" href="#Math/UnitCircleImap/q1/45degrees" />
-			<area shape="rect" coords="445,146,469,166" alt="30 Degrees" title="30&deg;" href="#Math/UnitCircleImap/q1/30degrees/" />
-			<area shape="rect" coords="285,77,315,107" alt="pi/2" title="&pi;/2" href="#Math/UnitCircleImap/q1/pi2/" />
-			<area shape="rect" coords="355,100,385,130" alt="pi/3" title="&pi;/3" href="#Math/UnitCircleImap/q1/pi3/" />
-			<area shape="rect" coords="386,116,416,146" alt="pi/4" title="&pi;/4" href="#Math/UnitCircleImap/q1/pi4/" />
-			<area shape="rect" coords="406,147,436,177" alt="pi/6" title="&pi;/6" href="#Math/UnitCircleImap/q1/pi6/" />
-		</map><br>
-		<a href="Widgets/phptest.php">Meet the WebAdmin</a>
-		<!-- The following image attributes are applied via the ccs class "image"-->
-		<img src="images/UnderConstruct.jpg" class="image" alt="The Unit Circle"/>
+					<li><a href="#Home" class="active">Home</a></li>
+					<li><a href="#About">About</a></li>
+					<li><a href="#Blog">Blog</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+				</h3>
+			</nav>
+		</header>
 
-	</main>
-	<!-- footer start -->
-	<!-- ================ -->
-	<footer class="subheading">
-		<div> Copyright &copy; 2016/2017
-			<address>
-				Webmaster:  &#64;<a href="mailto:tubosaldare@zoho.com">Sal</a>.<br> 
-				<!-- address here -->		
-			</address>
-		</div>
+		<h2>The Unit Circle</h2>
+
+		<main role="main">
+
+			<article class="formatted" role="article">
+				<p>
+					Building the entire unit circle by the method described here requires that we know the first three angles of the unit circle, <code class="nobreak"> 3 0 &deg; </code>&nbsp, <code class="nobreak"> 4 5 &deg; </code>&nbsp, and <code class="nobreak"> 6 0 &deg; </code>&nbsp. We will also need to know how to convert between degrees and radians.
+				</p>  
+				<figure>
+					<img src="images/unitcircle.png" class="circle-image" alt="Unit Circle" usemap="#map"/>
+					<figcaption></figcaption>
+				</figure>
+				<p>
+					First we know that the circumference of the unit circle (a circle of radius 1) is <code class="nobreak"> 2 &pi; </code>&nbspradians. This comes from the formlua for the circumference of circle <code class="nobreak"> C = 2 &pi; r </code>&nbsp, the radius of a unit circle is 
+					<code class="nobreak"> r = 1 </code>&nbsp, therefore <code class="nobreak"> C = 2 &pi; 1 </code>&nbsp so <code class="nobreak"> C = 2 &pi; </code>&nbsp. 
+				</p>
+				<p>
+					A radian is, very simply, the measure of an arc, a circumference is merely the full and complete arc of a circle. The idea of a radian is the measure of an angle by the length of its arc. 
+				</p>
+				<p>
+					Suppose we draw a coordinate axis in x and y, then we draw a circle on this axis with a radius of one, from the x axis beginning at the origin we draw a line at an angle of <code class="nobreak"> 3 0 &deg; </code>&nbsp that intersects the unit circle, we can get the length of the arc in radians from the relationship between the full circumference of the circle and the degree measure of the angle. 
+				</p>
+				<p>
+					We can say that <code class="nobreak"> 3 0 &deg; </code>&nbsp is a multiplicative portion of a full circle of <code class="nobreak"> 3 6 0 &deg; </code>&nbsp. If we divide <code class="nobreak"> 3 6 0 / 3 0 = 1 2 </code>&nbsp, so <code class="nobreak"> 3 0 &deg; </code>&nbsp is a <code class="nobreak"> 1 2 t h </code>&nbsp of a circle. This does not tell us anything about the length of the arc except to say it is <code class="nobreak"> 1 / 1 2 t h </code>&nbsp 
+					of the full circle. We know also that the full circumference of a circle is <code class="nobreak"> 2 &pi; </code>&nbsp radians. 
+				</p>
+				<p>
+					We can get the length of the arc at <code class="nobreak"> 3 0 &deg; </code>&nbsp by inferring a multiplicative relationship just as we did with degree measure. First we have that, <code class="nobreak"> 2 &pi; = 3 6 0 &deg; </code>&nbsp dividing both sides by <code class="nobreak"> 2 </code>&nbsp we get that <code class="nobreak"> &pi; = 1 8 0 &deg; </code>&nbsp. We want to know how many radians are in <code class="nobreak"> 3 0 &deg; </code>&nbsp. We could then next divide both sides of <code class="nobreak"> &pi; = 1 8 0 &deg; </code>&nbsp by <code class="nobreak"> 1 8 0 &deg; &pi; / 1 8 0 &deg; = 1 8 0 &deg; / 1 8 0 &deg; </code>&nbsp and we get that <code class="nobreak"> 1 &deg; = &pi; / 1 8 0 &deg; </code>&nbsp 
+				</p>
+				<p>
+					Next we would multiply both sides by <code class="nobreak"> 3 0 &deg; </code>&nbsp to get the number of radians in <code class="nobreak"> 3 0 &deg; </code>&nbsp, that is the length of the 
+					arc at <code class="nobreak"> 3 0 &deg; </code>&nbsp of a circle.
+					<code class="nobreak"> 3 0 &deg; = &pi; / 1 8 0 &deg; x 3 0 &deg; / 1 </code>&nbsp from this we get that; <code class="nobreak"> 3 0 &deg; = &pi; / 6 </code>&nbsp and <code class="nobreak"> 4 5 &deg; = &pi; / 1 8 0 &deg; x 4 5 &deg; / 1 </code>&nbsp from this we get that; <code class="nobreak"> 3 0 &deg; = &pi; / 4 </code>&nbsp radians and <code class="nobreak"> 6 0 &deg; = &pi; / 1 8 0 &deg; x 6 0 &deg;/ 1 </code>&nbsp from this we get that; <code class="nobreak"> 3 0 &deg; = &pi; / 3 </code>&nbsp. 
+				</p>
+				<p>
+					We draw a line at <code class="nobreak"> 4 5 &deg; </code>&nbsp, and <code class="nobreak"> 6 0 &deg; </code>&nbsp and plot the three corresponding arc lengths. 
+					<code class="nobreak"> &pi; / 6 </code>&nbsp at <code class="nobreak"> 3 0 &deg; </code>&nbsp, <code class="nobreak"> &pi; / 4 </code>&nbsp at <code class="nobreak"> 4 5 &deg; </code>&nbsp, <code class="nobreak"> &pi; / 3 </code>&nbsp at 
+					<code class="nobreak"> 6 0 &deg; </code>&nbsp. We can also infer that <code class="nobreak"> 9 0 &deg; = &pi; / 2 </code>&nbsp since <code class="nobreak"> 1 8 0 &deg; </code>&nbsp is <code class="nobreak"> &pi;</code>&nbsp. Next we mark these two points as well. So far we have <code class="nobreak"> 3 0 &deg; = &pi; / 6 </code>&nbsp, <code class="nobreak"> 4 5 &deg; = &pi; / 4 </code>&nbsp, <code class="nobreak"> 6 0 &deg; = &pi; / 3 </code>&nbsp, <code class="nobreak"> 9 0 &deg; = &pi; / 2 </code>&nbsp and 
+					<code class="nobreak"> 1 8 0 &deg; = &pi; </code>&nbsp, we can get all the other points by this same method or we can infer some knowledge of fractions and deduce the remaining radian measure points.
+				</p>	
+			</article>
+
+			<map name="map">
+				<area shape="rect" coords="376,50,390,74" alt="cos 60" title="cos 60" href="#Math/UnitCircleImap/q1/cos60/" />
+				<area shape="rect" coords="391,50,405,74" alt="sin 60" title="sin 60" href="#Math/UnitCircleImap/q1/sin60/" />
+				<area shape="rect" coords="431,81,445,105" alt="cos 45" title="cos 45" href="#Math/UnitCircleImap/q1/cos45/" />
+				<area shape="rect" coords="446,81,460,105" alt="sin 45" title="sin 45" href="#Math/UnitCircleImap/q1/sin45/" />
+				<area shape="rect" coords="460,121,474,145" alt="cos 30" title="cos 30" href="#Math/UnitCircleImap/q1/cos30" />
+				<area shape="rect" coords="475,121,489,145" alt="sin 30" title="sin 30" href="#Math/UnitCircleImap/q1/sin30/" />
+				<area shape="rect" coords="285,28,299,52" alt="cos 90" title="cos 90" href="#Math/UnitCircleImap/q1/cos90/" />
+				<area shape="rect" coords="300,28,313,52" alt="sin 90" title="sin 90" href="#Math/UnitCircleImap/q1/sin90/" />
+				<area shape="rect" coords="300,52,324,72" alt="90 Degrees" title="9 0 &deg;" href="#Math/UnitCircleImap/q1/90degrees/" />
+				<area shape="rect" coords="381,79,405,99" alt="60 Degrees" title="6 0 &deg;" href="#Math/UnitCircleImap/q1/60degrees/" />
+				<area shape="rect" coords="421,107,445,127" alt="45 Degrees" title="4 5 &deg;" href="#Math/UnitCircleImap/q1/45degrees" />
+				<area shape="rect" coords="445,146,469,166" alt="30 Degrees" title="3 0 &deg;" href="#Math/UnitCircleImap/q1/30degrees/" />
+				<area shape="rect" coords="285,77,315,107" alt="pi/2" title="&pi;/2" href="#Math/UnitCircleImap/q1/pi2/" />
+				<area shape="rect" coords="355,100,385,130" alt="pi/3" title="&pi;/3" href="#Math/UnitCircleImap/q1/pi3/" />
+				<area shape="rect" coords="386,116,416,146" alt="pi/4" title="&pi;/4" href="#Math/UnitCircleImap/q1/pi4/" />
+				<area shape="rect" coords="406,147,436,177" alt="pi/6" title="&pi;/6" href="#Math/UnitCircleImap/q1/pi6/" />
+			</map>
 			
-	</footer>
-	<!-- footer end -->
-</body>
+			<!-- The following image attributes are applied via the ccs class "image"-->
+			<!-- <img src="images/UnderConstruct.jpg" class="image" alt="The Unit Circle"/> -->
+		</main>
+
+		<!-- footer start -->
+		<!-- ================ -->
+		<footer role="contentinfo">
+			<div>
+				<a href="Widgets/phptest.php">Meet the WebAdmin</a><br>
+				Copyright &copy; 2016/2017
+					<address>
+					Webmaster:  &#64;<a href="mailto:tubosaldare@zoho.com">Sal</a>
+					<!-- address here -->		
+				</address>
+			</div>	
+		</footer>
+
+	</body>
+
 </html>
